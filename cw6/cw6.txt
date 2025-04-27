@@ -1,0 +1,28 @@
+Przykład 1: PoC wykrywania anomalii z linii produkcyjnej (IoT) w Azure
+
+Architektura:
+
+1.Źródło danych: Czujniki IoT wysyłające dane przez IoT Hub
+
+2.Przetwarzanie strumieniowe: Azure Stream Analytics w czasie rzeczywistym
+
+3.Przetwarzanie wsadowe: Azure Databricks do analizy historycznej
+
+4.Model ML: Azure Machine Learning (wykrywanie anomalii)
+
+5.Wizualizacja: Power BI
+
+6.Alerty: Logic Apps na podstawie wykrytych anomalii
+
+Kroki PoC:
+
+1.Zbieranie danych z czujników przez IoT Hub
+
+2.Przetwarzanie w czasie rzeczywistym (Stream Analytics) z podstawową detekcją
+
+3.Budowa modelu anomalii w Azure ML na danych historycznych
+
+4.Integracja modelu z potokiem przetwarzania
+
+5.Wizualizacja wyników i alerty
+
