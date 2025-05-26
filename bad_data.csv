@@ -1,0 +1,6 @@
+id,name,age
+1,Alice,25
+2,Bob,thirty  # Nieprawidłowy wiek (string zamiast int)
+3,,30        # Brakująca nazwa
+4,David,40
+5,Eve,       # Brakujący wiek
